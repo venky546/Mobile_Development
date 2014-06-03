@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" 
+    android:background="#ffffff">
+<TextView
+    android:layout_weight="1"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"
+    android:textSize="14sp"
+    android:padding="3dp"
+    android:textStyle="bold|italic"
+    android:textColor="#000000"
+    android:id="@+id/dash_arti_title"
+    />    
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="12sp"
+    android:textStyle="italic"
+    android:textColor="#000000"
+    android:layout_weight="1"
+    android:padding="3dp"
+    android:id="@+id/dash_arti_views"
+    />    
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="12sp"
+    android:textStyle="italic"
+    android:textColor="#000000"
+    android:layout_weight="1"
+    android:padding="3dp"
+    android:id="@+id/dash_arti_comments"
+    />    
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="12sp"
+    android:textStyle="italic"
+    android:textColor="#000000"
+    android:layout_weight="1"
+    android:padding="3dp"
+    android:id="@+id/dash_arti_voteups"
+    />    
+</LinearLayout>
+</LinearLayout>

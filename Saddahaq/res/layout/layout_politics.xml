@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#ffffff">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#ffffff"
+    >
+<CheckBox
+    android:id="@+id/check_politics_parties"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/parties"
+    android:textColor="#000000"
+    android:layout_weight="0.5"
+    />
+<CheckBox
+    android:id="@+id/check_politics_politicians"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/politicians"
+    android:textColor="#000000"
+    android:layout_weight="0.5"
+    />
+</LinearLayout> 
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#ffffff"
+    >
+<CheckBox
+    android:id="@+id/check_politics_policies"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/policies"
+    android:textColor="#000000"
+    android:layout_weight="0.5"
+    />
+<CheckBox
+    android:id="@+id/check_politics_national"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/national"
+    android:textColor="#000000"
+    android:layout_weight="0.5"
+    />
+</LinearLayout> 
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#ffffff"
+    >
+<CheckBox
+    android:id="@+id/check_politics_international"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/international"
+    android:textColor="#000000"
+    />
+</LinearLayout>
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/okay"
+    style="?android:attr/buttonBarStyle"
+    android:id="@+id/btn_politics"/>     
+</LinearLayout>

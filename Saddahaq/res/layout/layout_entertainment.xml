@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffff">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+<CheckBox
+    android:id="@+id/check_enter_arts"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/arts"
+    android:textColor="#000000"
+    android:layout_weight="0.5"
+    />
+<CheckBox
+    android:id="@+id/check_enter_books"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/books"
+    android:textColor="#000000"
+    android:layout_weight="0.5"
+    />
+</LinearLayout> 
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+<CheckBox
+    android:id="@+id/check_enter_celebrities"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/celebrities"
+    android:textColor="#000000"
+    android:layout_weight="0.5"
+    />
+<CheckBox
+    android:id="@+id/check_enter_movies"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/movies"
+    android:textColor="#000000"
+    android:layout_weight="0.5"
+    />
+</LinearLayout> 
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+     >
+<CheckBox
+    android:id="@+id/check_enter_tv"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/tv"
+    android:textColor="#000000"
+    android:layout_weight="0.5"
+    />
+<CheckBox
+    android:id="@+id/check_enter_theatre"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/theatre"
+    android:textColor="#000000"
+    android:layout_weight="0.5"
+    />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+     >
+<CheckBox
+    android:id="@+id/check_enter_bollywood"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/bollywood"
+    android:textColor="#000000"
+    android:layout_weight="0.5"
+    />
+<CheckBox
+    android:id="@+id/check_enter_hollywood"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/hollywood"
+    android:textColor="#000000"
+    android:layout_weight="0.5"
+    />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+     >
+	<CheckBox
+    android:id="@+id/check_enter_regional"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="@string/regional"
+    android:textColor="#000000"
+    android:layout_weight="0.5"
+    />
+</LinearLayout>
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/okay"
+	 style="?android:attr/buttonBarStyle"
+    android:id="@+id/btn_entertainment"/>     
+</LinearLayout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffff">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="3dp"
+        android:text="@string/title_personalize"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+	android:background="?android:attr/selectableItemBackground"
+    >
+<Button
+    android:id="@+id/per_politics"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.5"
+    android:text="@string/politics"
+    android:textColor="#000000" 
+    />
+<Button
+    android:id="@+id/per_news"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/news1"
+    android:textColor="#000000"
+    android:layout_weight="0.5"
+    />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="?android:attr/selectableItemBackground"
+    >
+<Button
+    android:id="@+id/per_social"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.5"
+    android:text="@string/social"
+    android:textColor="#000000" 
+    />
+<Button
+    android:id="@+id/per_entertainment"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/entertainment"
+    android:textColor="#000000"
+    android:layout_weight="0.5"
+    />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+	android:background="?android:attr/selectableItemBackground"
+    >
+<Button
+    android:id="@+id/per_sports"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/sports"
+    android:textColor="#000000"
+    android:layout_weight="0.5"
+    />
+<Button
+    android:id="@+id/per_lifestyle"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/lifestyle"
+    android:textColor="#000000"
+    android:layout_weight="0.5"
+    />
+</LinearLayout> 
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+	android:background="?android:attr/selectableItemBackground"
+    >
+<Button
+    android:id="@+id/per_business"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.5"
+    android:text="@string/business"
+    android:textColor="#000000" 
+/>
+<Button
+    android:id="@+id/per_technology"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/technology"
+    android:textColor="#000000"
+    android:layout_weight="0.5"
+    />
+</LinearLayout>
+
+<!-- <WebView
+    android:id="@+id/webv"
+    android:layout_width="fill_parent"
+    android:layout_height="150dp" >
+
+</WebView> -->
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="?android:attr/selectableItemBackground"
+    >
+<Button
+    android:id="@+id/per_health"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.5"
+    android:text="@string/health"
+    android:textColor="#000000" 
+   />
+<Button
+    android:id="@+id/per_science"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/science"
+    android:textColor="#000000"
+    android:layout_weight="0.5"
+    />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="?android:attr/selectableItemBackground"
+    >
+<Button
+    android:id="@+id/per_education"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/education"
+    android:textColor="#000000"
+    android:layout_weight="2"
+    />
+<Button
+    android:id="@+id/per_legal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/legal"
+    android:textColor="#000000"
+    android:layout_weight="2"
+    />
+</LinearLayout> 
+</LinearLayout>

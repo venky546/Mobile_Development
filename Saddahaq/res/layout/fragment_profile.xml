@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff" >
+    <RelativeLayout
+        android:id="@+id/l1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#C5CDE0"
+         >
+
+        <LinearLayout
+            android:id="@+id/l2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/profile_pic"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/profile_pic"
+            android:layout_toRightOf="@+id/profile_pic"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+            <Button
+                android:id="@+id/btn_following"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="#E95045"
+                android:textColor="#ffffff"
+                android:textSize="13sp" />
+			<View
+		    android:layout_width="fill_parent"
+		    android:layout_height="1dp"
+		    android:background="#ffffff"
+		    />
+            <Button
+                android:id="@+id/btn_followers"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="#E95045"
+                android:textColor="#ffffff"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/profile_pic"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:contentDescription="@string/accept"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" />
+        <TextView
+            android:id="@+id/profile_name"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/profile_pic"
+            android:text="@string/name"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+    android:id="@+id/myImageViewText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/profile_pic"
+    android:layout_alignTop="@+id/profile_pic"
+    android:layout_alignRight="@+id/profile_pic"
+    android:layout_alignBottom="@+id/profile_pic"
+    android:layout_margin="1dp"
+    android:gravity="center"
+    android:text="@string/change"
+    android:textColor="#EAEAEA" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/l3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/l1"
+        android:orientation="horizontal"
+         >
+        <Button
+            android:id="@+id/btn_articles"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#E95045"
+            android:text="@string/articles"
+            android:textColor="#ffffff"
+            android:textSize="13sp" />
+		<View
+		    android:layout_width="1dp"
+		    android:layout_height="30dp"
+		    android:background="#ffffff"
+		    />
+		<Button
+            android:id="@+id/btn_apps"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#E95045"
+            android:text="@string/apps"
+            android:textColor="#ffffff"
+            android:textSize="13sp" />
+        <!-- <Button
+            android:id="@+id/btn_events"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#E95045"
+            android:text="@string/events"
+            android:textColor="#ffffff"
+            android:textSize="13sp" />
+		<View
+		    android:layout_width="1dp"
+		    android:layout_height="30dp"
+		    android:background="#ffffff"
+		    />
+        <Button
+            android:id="@+id/btn_petetions"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#E95045"
+            android:text="@string/petetions"
+            android:textColor="#ffffff"
+            android:textSize="13sp" /> -->
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/profile_desc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/l3"
+        android:paddingTop="2dp"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <ListView
+        android:id="@+id/article_listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_desc"
+        android:dividerHeight="0.5dp"
+        android:divider="#E95045" />
+
+</RelativeLayout>

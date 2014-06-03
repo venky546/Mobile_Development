@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffff">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+<CheckBox
+    android:id="@+id/check_sports_cricket"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/cricket"
+    android:textColor="#000000"
+    android:layout_weight="0.5"
+    />
+<CheckBox
+    android:id="@+id/check_sports_hockey"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/hockey"
+    android:textColor="#000000"
+    android:layout_weight="0.5"
+    />
+</LinearLayout> 
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+<CheckBox
+    android:id="@+id/check_sports_boxing"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/boxing"
+    android:textColor="#000000"
+    android:layout_weight="0.5"
+    />
+<CheckBox
+    android:id="@+id/check_sports_soccer"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/soccer"
+    android:textColor="#000000"
+    android:layout_weight="0.5"
+    />
+</LinearLayout> 
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+<CheckBox
+    android:id="@+id/check_sports_tennis"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/tennis"
+    android:textColor="#000000"
+    android:layout_weight="0.5"
+    />
+<CheckBox
+    android:id="@+id/check_sports_athletics"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/athletics"
+    android:textColor="#000000"
+    android:layout_weight="0.5"
+    />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+<CheckBox
+    android:id="@+id/check_sports_badminton"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/badminton"
+    android:textColor="#000000"
+    android:layout_weight="0.5"
+    />
+<CheckBox
+    android:id="@+id/check_sports_olympics"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/olympics"
+    android:textColor="#000000"
+    android:layout_weight="0.5"
+    />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+	<CheckBox
+    android:id="@+id/check_sports_f1"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="@string/f1"
+    android:textColor="#000000"
+    android:layout_weight="0.5"
+    />
+	<CheckBox
+    android:id="@+id/check_sports_shooting"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="@string/shooting"
+    android:textColor="#000000"
+    android:layout_weight="0.5"
+    />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+	<CheckBox
+    android:id="@+id/check_sports_swimming"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="@string/swimming"
+    android:textColor="#000000"
+    android:layout_weight="0.5"
+    />
+</LinearLayout>
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/okay"
+	 style="?android:attr/buttonBarStyle"
+    android:id="@+id/btn_sports"/>     
+</LinearLayout>

@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/gplogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="login"
+        />
+    <Button
+        android:id="@+id/gplogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="logout"
+        android:visibility="invisible"
+        />
+    <Button
+        android:id="@+id/gpfriends"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Get Friends"
+        android:visibility="invisible"
+        />
+	  <Button
+	  android:id="@+id/gpshare"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:text="Share"
+	   android:visibility="invisible"
+	/>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+		<TextView
+		    android:id="@+id/gpuserinfo"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="20dp"
+		    android:layout_marginTop="20dp"
+		    android:textColor="@color/com_facebook_blue"
+		    android:visibility="invisible" />
+
+		</ScrollView>
+</LinearLayout>

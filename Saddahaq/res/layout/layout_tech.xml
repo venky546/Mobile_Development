@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#ffffff">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+<CheckBox
+    android:id="@+id/check_tech_internet"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/internet"
+    android:textColor="#000000"
+    android:layout_weight="0.5"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp"
+    />
+<CheckBox
+    android:id="@+id/check_tech_computing"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/computing"
+    android:textColor="#000000"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp"
+    android:layout_weight="0.5"
+    />
+</LinearLayout> 
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+<CheckBox
+    android:id="@+id/check_tech_pt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/pt"
+    android:textColor="#000000"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp"
+    android:layout_weight="0.5"
+    />
+<CheckBox
+    android:id="@+id/check_tech_et"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/et"
+    android:textColor="#000000"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp"
+    android:layout_weight="0.5"
+    />
+</LinearLayout> 
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+     >
+<CheckBox
+    android:id="@+id/check_tech_vg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/videogames"
+    android:textColor="#000000"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp"
+    android:layout_weight="0.5"
+    />
+<CheckBox
+    android:id="@+id/check_tech_mandap"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/mandap"
+    android:textColor="#000000"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp"
+    android:layout_weight="0.5"
+    />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+     >
+<CheckBox
+    android:id="@+id/check_tech_pclap"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/pc_lap"
+    android:textColor="#000000"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp"
+    android:layout_weight="0.5"
+    />
+<CheckBox
+    android:id="@+id/check_tech_wg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/wg"
+    android:textColor="#000000"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp"
+    android:layout_weight="0.5"
+    />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+     >
+	<CheckBox
+    android:id="@+id/check_tech_cameras"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="@string/cameras"
+    android:textColor="#000000"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp"
+    android:layout_weight="0.5"
+    />
+</LinearLayout>
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/okay"
+	 style="?android:attr/buttonBarStyle"
+    android:id="@+id/btn_tech"/>     
+</LinearLayout>
